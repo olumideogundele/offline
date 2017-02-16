@@ -23,7 +23,7 @@ I recommend going to http://jquery.com/ for the great documentation there about 
  
                             <div class="head">
       <h2> <h3>Output: </h3>
-  <div id="output">This Message will be replaces by you username and password. If not, Please try again.</div>
+  <div id="output"><h4>This Message will be replaced by your username and password. If not, Please try again.</h4></div>
    </h2><br>
    
    
@@ -52,12 +52,12 @@ I recommend going to http://jquery.com/ for the great documentation there about 
 
 	 var arr = document.URL.match(/room=([a-z]+)/)
 var room = arr[1];
-	  alert(room);
+	  //alert(room);
    
   
  
  $reverse = 'http://offline.rexauditz.com/ajax/api.php?value='+room;
-  alert($reverse);
+ // alert($reverse);
 	
  
     $.ajax({                                      

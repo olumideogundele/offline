@@ -416,7 +416,7 @@ $(document).ready(function () // Call function when page is ready for load..
  function loginRecords() // Function For Retrive data from Database Display records as list
  {
  	var flag = 0;
-	alert("got here 232");
+	//alert("got here 232");
 	var  user = $('#username').val().toLowerCase();
 	
 		var  pass = $('#password').val().toLowerCase();

@@ -68,10 +68,10 @@ input, textarea, select {
    color: #979494;  
 }
 button {
-  margin-top:15px;
-  margin-bottom:25px;
+  margin-top:10px;
+  margin-bottom:15px;
   background-color:#2ABCA7;
-  padding: 12px 45px;
+  padding: 5px 25px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
@@ -80,7 +80,7 @@ button {
   transition: .5s;
   display: inline-block;
   cursor: pointer;
-  width:10%;
+  width:90%;
   color:#fff;
 }
 button:hover, .button:hover {
@@ -109,7 +109,7 @@ label.error {
     width: 90%;
   }
   button {
-    width:90%;
+    width:100%;
   }
   body {
   padding-top:10px;
