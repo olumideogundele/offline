@@ -5,10 +5,10 @@
   // by Trystan Lea : openenergymonitor.org : GNU GPL
   //--------------------------------------------------------------------------
   $host = "localhost";
-  $user = "root";
-  $pass = "";
+  $user = "stmoju2017";
+  $pass = "hollywood2017";
 
-  $databaseName = "auditz";
+  $databaseName = "monitium";
   $tableName = "users";
 
   //--------------------------------------------------------------------------
