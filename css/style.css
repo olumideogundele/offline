@@ -68,10 +68,10 @@ input, textarea, select {
    color: #979494;  
 }
 button {
-  margin-top:10px;
-  margin-bottom:15px;
+  margin-top:15px;
+  margin-bottom:25px;
   background-color:#2ABCA7;
-  padding: 5px 25px;
+  padding: 12px 45px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
