@@ -52,12 +52,12 @@ I recommend going to http://jquery.com/ for the great documentation there about 
 
 	 var arr = document.URL.match(/room=([a-z]+)/)
 var room = arr[1];
-	// alert(room);
+	  alert(room);
    
   
  
- $reverse = 'http://offline.rexauditz.com/api.php?value='+room;
- // alert($reverse);
+ $reverse = 'api.php?value='+room;
+  alert($reverse);
 	
  
     $.ajax({                                      
